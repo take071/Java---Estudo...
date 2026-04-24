@@ -1,0 +1,284 @@
+# Gabarito de Extração — Dark Patterns (Parsifal)
+> Referência rápida: copie os campos abaixo diretamente para o Parsifal.
+
+---
+
+## P1 — All "Dark Patterns" Are "Hostile Patterns"
+**Autor(es):** Ryan Gary Timms
+**Ano:** 2025
+**Fonte:** Ethics and Information Technology, 27:57
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Obstruction, Sneaking, Social Engineering (Confirmshaming), Interface Interference, Forced Action |
+| **Plataforma analisada** | Web / Mobile App (análise geral/teórica) |
+| **Como foi a Identificação** | **Manual** — análise filosófico-conceitual com revisão de exemplos da literatura |
+| **Ferramenta/Método** | Framework de hostilidade (Sterelny, 2003) + harm a interesses (Feinberg, 1984) |
+| **Conceito ético central** | Hostilidade: interfaces que minam interesses do usuário em benefício da plataforma |
+| **Limitações** | Definição de "interesses" abre discussões difíceis de resolver; framework coarse-grained; não distingue graus de hostilidade |
+| **Contribuições** | Framework único cobrindo todos os tipos; distingue dark de anti-patterns; desacopla intencionalidade; linguagem universalizável para regulação |
+| **Comentários gerais** | Trabalho teórico para harmonização entre domínios regulatório (DSA, DMA, AI Act UE) e acadêmico. Introduz conceito de "digital pickpocketing" |
+
+---
+
+## P2 — An Empirical Study of Dark Patterns in Indian Digital Applications
+**Autor(es):** Nalin Khare, Smita Bharne
+**Ano:** 2025
+**Fonte:** IEEE ICCCA 2025
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | False Urgency, Nagging, Forced Continuity, Obstruction, Privacy Deception, Drip Pricing, Interface Interference, Confirmshaming |
+| **Plataforma analisada** | Mobile App / E-commerce |
+| **Como foi a Identificação** | **Híbrida** — scraping automatizado (Google Play) + inspeção manual de UI + triangulação com relatórios |
+| **Ferramenta/Método** | Web scraping + anotação manual estruturada; 200 apps indianos (2019–2024) |
+| **Conceito ético central** | Proteção ao consumidor; conformidade legal com regulações indianas (CPA 2019, DPDP 2023) |
+| **Limitações** | Restrito ao contexto indiano; foco em apps populares; ausência de estudos com usuários reais |
+| **Contribuições** | Dataset de 200 apps; taxonomia setorial; padrões culturalmente adaptados (urgência por festivais, code-mixing); mapeamento de lacunas legais |
+| **Comentários gerais** | Privacy Deception prevalente em 79,2% dos apps. Food Delivery lidera com 6,1 dark patterns/app em média |
+
+---
+
+## P3 — Conceptualizations of User Autonomy within the Normative Evaluation of Dark Patterns
+**Autor(es):** Sanju Ahuja, Jyoti Kumar
+**Ano:** 2022
+**Fonte:** Ethics and Information Technology, 24:52
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Todos (151 padrões de 16 taxonomias): Sneaking, Forced Action, Obstruction, Social Proof, Misdirection, entre outros |
+| **Plataforma analisada** | Web / Mobile App / Games / E-commerce |
+| **Como foi a Identificação** | **Manual** — revisão sistemática de 16 taxonomias + análise temática |
+| **Ferramenta/Método** | Revisão sistemática + open coding + análise temática top-down ancorada em teorias filosóficas de autonomia |
+| **Conceito ético central** | Autonomia em 4 dimensões: agência, liberdade de escolha, controle, independência |
+| **Limitações** | Taxonomia não exaustiva; ameaças à autenticidade/self-constitution não capturadas; foco em padrões individuais, não em infraestruturas sistêmicas |
+| **Contribuições** | 4 dimensões de autonomia + 7 considerações éticas + 25 dark strategies; guia para políticas regulatórias; aplicação a m-health |
+| **Comentários gerais** | Distinção entre "controle" (opt-out burden) e "liberdade de escolha" (restrições de acesso) especialmente útil para reguladores |
+
+---
+
+## P4 — Dark Patterns and Consumer Protection Law for App Makers
+**Autor(es):** Gregory M. Dickinson
+**Ano:** N/D (publicado em conferência IEEE)
+**Fonte:** IEEE (College of Law, University of Nebraska)
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Nagging, Obstruction (Roach Motel), Sneaking (Hidden Costs), Interface Interference (Confirmshaming, Countdown Timers), Forced Action |
+| **Plataforma analisada** | Mobile App / Web / E-commerce |
+| **Como foi a Identificação** | **Manual** — análise jurídica com estudo de casos reais (Amazon, TurboTax, Epic Games, Facebook) |
+| **Ferramenta/Método** | Revisão de enforcement da FTC + state Attorneys General + doutrina do "reasonable consumer standard" |
+| **Conceito ético central** | Proteção do consumidor; autonomia sob padrão do "reasonable consumer"; deception independe de intenção |
+| **Limitações** | Foco no direito norte-americano; framework legal pode ficar defasado com IA e A/B testing |
+| **Contribuições** | Distingue dark patterns acidentais de intencionais; 5 categorias de pitfalls acidentais; guia prático de compliance para desenvolvedores |
+| **Comentários gerais** | Padrão legal foca no efeito sobre o consumidor razoável, não na intenção — alinhado com Timms (P1). Relevante para desenvolvedores e gestores de produto |
+
+---
+
+## P5 — Dark Patterns Detection and Classification Using Machine Learning Techniques
+**Autor(es):** Gowtham S, Dejas Vigas P, PCD Kalaivaani, Aakash S
+**Ano:** 2024
+**Fonte:** IEEE ICDCC 2024
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Urgency, Obstruction, Social Proof, Misdirection, Scarcity |
+| **Plataforma analisada** | E-commerce (dataset textual) |
+| **Como foi a Identificação** | **Automática (Algoritmo/IA)** — ML supervisionado com NLP |
+| **Ferramenta/Método** | Logistic Regression, SVM (RBF), Random Forest, Gaussian Naive Bayes; TF-IDF; Grid Search com 5-fold cross-validation; dataset: 2.357 instâncias (Yada et al., 2021) |
+| **Conceito ético central** | Design ético de UX; empoderamento do usuário via detecção automatizada |
+| **Limitações** | Apenas text-based; não cobre dark patterns visuais; dataset somente em inglês; dificuldade com "Misdirection" (padrão mais ambíguo) |
+| **Contribuições** | Pipeline automatizado; SVM: 95,01% acurácia, AUC-ROC 0,9719; comparação sistemática de 4 algoritmos; base para ferramentas em tempo real |
+| **Comentários gerais** | SVM superou todos os demais modelos. Gaussian Naive Bayes inadequado para dados categóricos discretos (kappa: 0,5406) |
+
+---
+
+## P6 — Understanding User and Developer Perceptions of and Responses to Dark Patterns in Online UIs
+**Autor(es):** Huayu Liang, Syeda Afia Zahin Hossain, Chris Brown
+**Ano:** 2025
+**Fonte:** IEEE VL/HCC 2025 · Virginia Tech
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Nagging, Obstruction, Sneaking, Interface Interference, Forced Action |
+| **Plataforma analisada** | Web / Mobile App / Social Media / E-commerce |
+| **Como foi a Identificação** | **Híbrida** — surveys qualitativos (manual) + mineração GitHub (automático) + análise de sentimento (automático) |
+| **Ferramenta/Método** | Survey (N=66 usuários, N=38 devs) + GitHub REST API (2.556 repos) + SentiStrength-SE e DEVA; open coding + análise temática |
+| **Conceito ético central** | Autonomia do usuário; confiança; responsabilidade ética do desenvolvedor; pressões externas como vetor de implementação |
+| **Limitações** | Foco em OSS (não representa devs industriais); um exemplo por dark pattern (viés); busca por keyword pode excluir termos alternativos |
+| **Contribuições** | 1º estudo com perspectiva dupla usuário+desenvolvedor; sentimentos negativos estatisticamente significativos em discussões GitHub (p=0,0012); 66,7% dos usuários continuam usando apps com dark patterns por falta de alternativas |
+| **Comentários gerais** | Desenvolvedores raramente implementam dark patterns voluntariamente — pressão de stakeholders é o principal vetor. Obstruction e Interface Interference foram os mais implementados |
+
+---
+
+## P7 — Unveiling the Dark Patterns in E-Commerce Web Sites
+**Autor(es):** N. Kirthiga, Bethala Risthitha, Bommana Manideep Reddy, Dammalapa Teja, Boggavarapu Siri Mahalakshmi
+**Ano:** 2024
+**Fonte:** IEEE ICSCNA 2024 · Kalasalingam Academy
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Bait & Switch, Hidden Costs, Fake Urgency, Misleading Discounts |
+| **Plataforma analisada** | Web / E-commerce |
+| **Como foi a Identificação** | **Automática (Algoritmo/IA)** — extensões de navegador com modelos de ML + web crawling |
+| **Ferramenta/Método** | 2 extensões Chrome: Alert Button (detecção + notificação em tempo real) e Website Time Tracker (rastreamento de tempo por URL); Isolation Forest Algorithm; HTML/JS parsing |
+| **Conceito ético central** | Transparência e accountability; empoderamento do usuário; design centrado no usuário |
+| **Limitações** | Restrito ao Chrome/web; acurácia dependente de dados de treinamento; detalhes metodológicos insuficientes; não abrange dark patterns visuais complexos |
+| **Contribuições** | Detecção em tempo real durante navegação; notificação e redirecionamento automático para sites sem dark patterns; interface acessível para usuários não técnicos |
+| **Comentários gerais** | Abordagem prática orientada ao usuário final. Comparação Web vs. Mobile via CDF de Jaccard coefficient é o ponto metodológico mais rigoroso |
+
+---
+
+## Resumo — Como foi a Identificação (todos os 7 artigos)
+
+| Código | Artigo | Método |
+|---|---|---|
+| P1 | Timms (2025) | Manual |
+| P2 | Khare & Bharne (2025) | Híbrida |
+| P3 | Ahuja & Kumar (2022) | Manual |
+| P4 | Dickinson | Manual |
+| P5 | Gowtham et al. (2024) | Automática (Algoritmo/IA) |
+| P6 | Liang et al. (2025) | Híbrida |
+| P7 | Kirthiga et al. (2024) | Automática (Algoritmo/IA) |
+# Gabarito de Extração — Dark Patterns (Parsifal)
+> Referência rápida: copie os campos abaixo diretamente para o Parsifal.
+
+---
+
+## P1 — All "Dark Patterns" Are "Hostile Patterns"
+**Autor(es):** Ryan Gary Timms
+**Ano:** 2025
+**Fonte:** Ethics and Information Technology, 27:57
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Obstruction, Sneaking, Social Engineering (Confirmshaming), Interface Interference, Forced Action |
+| **Plataforma analisada** | Web / Mobile App (análise geral/teórica) |
+| **Como foi a Identificação** | **Manual** — análise filosófico-conceitual com revisão de exemplos da literatura |
+| **Ferramenta/Método** | Framework de hostilidade (Sterelny, 2003) + harm a interesses (Feinberg, 1984) |
+| **Conceito ético central** | Hostilidade: interfaces que minam interesses do usuário em benefício da plataforma |
+| **Limitações** | Definição de "interesses" abre discussões difíceis de resolver; framework coarse-grained; não distingue graus de hostilidade |
+| **Contribuições** | Framework único cobrindo todos os tipos; distingue dark de anti-patterns; desacopla intencionalidade; linguagem universalizável para regulação |
+| **Comentários gerais** | Trabalho teórico para harmonização entre domínios regulatório (DSA, DMA, AI Act UE) e acadêmico. Introduz conceito de "digital pickpocketing" |
+
+---
+
+## P2 — An Empirical Study of Dark Patterns in Indian Digital Applications
+**Autor(es):** Nalin Khare, Smita Bharne
+**Ano:** 2025
+**Fonte:** IEEE ICCCA 2025
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | False Urgency, Nagging, Forced Continuity, Obstruction, Privacy Deception, Drip Pricing, Interface Interference, Confirmshaming |
+| **Plataforma analisada** | Mobile App / E-commerce |
+| **Como foi a Identificação** | **Híbrida** — scraping automatizado (Google Play) + inspeção manual de UI + triangulação com relatórios |
+| **Ferramenta/Método** | Web scraping + anotação manual estruturada; 200 apps indianos (2019–2024) |
+| **Conceito ético central** | Proteção ao consumidor; conformidade legal com regulações indianas (CPA 2019, DPDP 2023) |
+| **Limitações** | Restrito ao contexto indiano; foco em apps populares; ausência de estudos com usuários reais |
+| **Contribuições** | Dataset de 200 apps; taxonomia setorial; padrões culturalmente adaptados (urgência por festivais, code-mixing); mapeamento de lacunas legais |
+| **Comentários gerais** | Privacy Deception prevalente em 79,2% dos apps. Food Delivery lidera com 6,1 dark patterns/app em média |
+
+---
+
+## P3 — Conceptualizations of User Autonomy within the Normative Evaluation of Dark Patterns
+**Autor(es):** Sanju Ahuja, Jyoti Kumar
+**Ano:** 2022
+**Fonte:** Ethics and Information Technology, 24:52
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Todos (151 padrões de 16 taxonomias): Sneaking, Forced Action, Obstruction, Social Proof, Misdirection, entre outros |
+| **Plataforma analisada** | Web / Mobile App / Games / E-commerce |
+| **Como foi a Identificação** | **Manual** — revisão sistemática de 16 taxonomias + análise temática |
+| **Ferramenta/Método** | Revisão sistemática + open coding + análise temática top-down ancorada em teorias filosóficas de autonomia |
+| **Conceito ético central** | Autonomia em 4 dimensões: agência, liberdade de escolha, controle, independência |
+| **Limitações** | Taxonomia não exaustiva; ameaças à autenticidade/self-constitution não capturadas; foco em padrões individuais, não em infraestruturas sistêmicas |
+| **Contribuições** | 4 dimensões de autonomia + 7 considerações éticas + 25 dark strategies; guia para políticas regulatórias; aplicação a m-health |
+| **Comentários gerais** | Distinção entre "controle" (opt-out burden) e "liberdade de escolha" (restrições de acesso) especialmente útil para reguladores |
+
+---
+
+## P4 — Dark Patterns and Consumer Protection Law for App Makers
+**Autor(es):** Gregory M. Dickinson
+**Ano:** N/D (publicado em conferência IEEE)
+**Fonte:** IEEE (College of Law, University of Nebraska)
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Nagging, Obstruction (Roach Motel), Sneaking (Hidden Costs), Interface Interference (Confirmshaming, Countdown Timers), Forced Action |
+| **Plataforma analisada** | Mobile App / Web / E-commerce |
+| **Como foi a Identificação** | **Manual** — análise jurídica com estudo de casos reais (Amazon, TurboTax, Epic Games, Facebook) |
+| **Ferramenta/Método** | Revisão de enforcement da FTC + state Attorneys General + doutrina do "reasonable consumer standard" |
+| **Conceito ético central** | Proteção do consumidor; autonomia sob padrão do "reasonable consumer"; deception independe de intenção |
+| **Limitações** | Foco no direito norte-americano; framework legal pode ficar defasado com IA e A/B testing |
+| **Contribuições** | Distingue dark patterns acidentais de intencionais; 5 categorias de pitfalls acidentais; guia prático de compliance para desenvolvedores |
+| **Comentários gerais** | Padrão legal foca no efeito sobre o consumidor razoável, não na intenção — alinhado com Timms (P1). Relevante para desenvolvedores e gestores de produto |
+
+---
+
+## P5 — Dark Patterns Detection and Classification Using Machine Learning Techniques
+**Autor(es):** Gowtham S, Dejas Vigas P, PCD Kalaivaani, Aakash S
+**Ano:** 2024
+**Fonte:** IEEE ICDCC 2024
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Urgency, Obstruction, Social Proof, Misdirection, Scarcity |
+| **Plataforma analisada** | E-commerce (dataset textual) |
+| **Como foi a Identificação** | **Automática (Algoritmo/IA)** — ML supervisionado com NLP |
+| **Ferramenta/Método** | Logistic Regression, SVM (RBF), Random Forest, Gaussian Naive Bayes; TF-IDF; Grid Search com 5-fold cross-validation; dataset: 2.357 instâncias (Yada et al., 2021) |
+| **Conceito ético central** | Design ético de UX; empoderamento do usuário via detecção automatizada |
+| **Limitações** | Apenas text-based; não cobre dark patterns visuais; dataset somente em inglês; dificuldade com "Misdirection" (padrão mais ambíguo) |
+| **Contribuições** | Pipeline automatizado; SVM: 95,01% acurácia, AUC-ROC 0,9719; comparação sistemática de 4 algoritmos; base para ferramentas em tempo real |
+| **Comentários gerais** | SVM superou todos os demais modelos. Gaussian Naive Bayes inadequado para dados categóricos discretos (kappa: 0,5406) |
+
+---
+
+## P6 — Understanding User and Developer Perceptions of and Responses to Dark Patterns in Online UIs
+**Autor(es):** Huayu Liang, Syeda Afia Zahin Hossain, Chris Brown
+**Ano:** 2025
+**Fonte:** IEEE VL/HCC 2025 · Virginia Tech
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Nagging, Obstruction, Sneaking, Interface Interference, Forced Action |
+| **Plataforma analisada** | Web / Mobile App / Social Media / E-commerce |
+| **Como foi a Identificação** | **Híbrida** — surveys qualitativos (manual) + mineração GitHub (automático) + análise de sentimento (automático) |
+| **Ferramenta/Método** | Survey (N=66 usuários, N=38 devs) + GitHub REST API (2.556 repos) + SentiStrength-SE e DEVA; open coding + análise temática |
+| **Conceito ético central** | Autonomia do usuário; confiança; responsabilidade ética do desenvolvedor; pressões externas como vetor de implementação |
+| **Limitações** | Foco em OSS (não representa devs industriais); um exemplo por dark pattern (viés); busca por keyword pode excluir termos alternativos |
+| **Contribuições** | 1º estudo com perspectiva dupla usuário+desenvolvedor; sentimentos negativos estatisticamente significativos em discussões GitHub (p=0,0012); 66,7% dos usuários continuam usando apps com dark patterns por falta de alternativas |
+| **Comentários gerais** | Desenvolvedores raramente implementam dark patterns voluntariamente — pressão de stakeholders é o principal vetor. Obstruction e Interface Interference foram os mais implementados |
+
+---
+
+## P7 — Unveiling the Dark Patterns in E-Commerce Web Sites
+**Autor(es):** N. Kirthiga, Bethala Risthitha, Bommana Manideep Reddy, Dammalapa Teja, Boggavarapu Siri Mahalakshmi
+**Ano:** 2024
+**Fonte:** IEEE ICSCNA 2024 · Kalasalingam Academy
+
+| Campo | Resposta |
+|---|---|
+| **Tipos de Dark Patterns analisados** | Bait & Switch, Hidden Costs, Fake Urgency, Misleading Discounts |
+| **Plataforma analisada** | Web / E-commerce |
+| **Como foi a Identificação** | **Automática (Algoritmo/IA)** — extensões de navegador com modelos de ML + web crawling |
+| **Ferramenta/Método** | 2 extensões Chrome: Alert Button (detecção + notificação em tempo real) e Website Time Tracker (rastreamento de tempo por URL); Isolation Forest Algorithm; HTML/JS parsing |
+| **Conceito ético central** | Transparência e accountability; empoderamento do usuário; design centrado no usuário |
+| **Limitações** | Restrito ao Chrome/web; acurácia dependente de dados de treinamento; detalhes metodológicos insuficientes; não abrange dark patterns visuais complexos |
+| **Contribuições** | Detecção em tempo real durante navegação; notificação e redirecionamento automático para sites sem dark patterns; interface acessível para usuários não técnicos |
+| **Comentários gerais** | Abordagem prática orientada ao usuário final. Comparação Web vs. Mobile via CDF de Jaccard coefficient é o ponto metodológico mais rigoroso |
+
+---
+
+## Resumo — Como foi a Identificação (todos os 7 artigos)
+
+| Código | Artigo | Método |
+|---|---|---|
+| P1 | Timms (2025) | Manual |
+| P2 | Khare & Bharne (2025) | Híbrida |
+| P3 | Ahuja & Kumar (2022) | Manual |
+| P4 | Dickinson | Manual |
+| P5 | Gowtham et al. (2024) | Automática (Algoritmo/IA) |
+| P6 | Liang et al. (2025) | Híbrida |
+| P7 | Kirthiga et al. (2024) | Automática (Algoritmo/IA) |

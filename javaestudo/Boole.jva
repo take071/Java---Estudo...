@@ -1,0 +1,7 @@
+public class Boole{
+ public static void main(String[] args){
+  // uso do &&, (AND), ||, (OR), !
+
+ int idade = 18;
+ int salario = 1200;
+    
